@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+
 # SICONFI Data Collector
 
 Ferramenta em **Python** para coleta automatizada de dados fiscais municipais diretamente do **Data Lake do Tesouro Nacional (SICONFI)**.
@@ -8,7 +10,7 @@ A aplicação possui uma **interface gráfica simples (Tkinter)** que facilita o
 
 ---
 
-# Objetivo do Projeto
+## Objetivo do Projeto
 
 Este projeto foi desenvolvido para **automatizar a coleta de dados fiscais públicos** disponibilizados pelo **Tesouro Nacional** por meio do Data Lake do SICONFI.
 
@@ -28,7 +30,7 @@ A aplicação pode ser útil para:
 
 ---
 
-# Fonte dos Dados
+## Fonte dos Dados
 
 Os dados são obtidos diretamente da **API pública do Data Lake do Tesouro Nacional**.
 
@@ -36,7 +38,7 @@ https://apidatalake.tesouro.gov.br/ords/siconfi/tt
 
 ---
 
-# Dados Disponíveis
+## Dados Disponíveis
 
 O sistema permite coletar três tipos de dados.
 
@@ -51,7 +53,7 @@ Permite selecionar:
 - meses
 
 Endpoint utilizado:
-  - /msc_orcamentaria
+  - `/msc_orcamentaria`
 
 
 ---
@@ -67,7 +69,7 @@ Permite selecionar:
 - anexos específicos
 
 Endpoint utilizado:
-  - /dca
+  - `/dca`
 
 
 ---
@@ -77,17 +79,18 @@ Endpoint utilizado:
 Lista completa de entes federativos cadastrados no SICONFI.
 
 Endpoint utilizado:
-  - /entes
+  - `/entes`
 
 
 ---
+
 
 # Arquitetura do Projeto
 
 O projeto está organizado em módulos com responsabilidades específicas.
 
 ```
-  .
+.
 ├── main.py
 ├── gui.py
 ├── worker.py
@@ -174,6 +177,9 @@ Funções auxiliares:
 
 ---
 
+<details>
+<summary><b>Fluxo do Projeto e Tecnologias Utilizadas</b></summary>
+
 # Fluxo de Execução
 
 1. O usuário configura os parâmetros na interface gráfica.
@@ -182,6 +188,7 @@ Funções auxiliares:
 4. Cada tarefa consulta a API do SICONFI.
 5. Os dados retornados são convertidos em **DataFrame (Pandas)**.
 6. Os dados são salvos em **arquivos CSV**.
+
 
 ---
 
@@ -194,4 +201,4 @@ Funções auxiliares:
 - ThreadPoolExecutor
 - API pública do Tesouro Nacional (SICONFI)
 
----
+ <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
