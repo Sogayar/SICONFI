@@ -10,6 +10,13 @@ A aplicação possui uma **interface gráfica simples (Tkinter)** que facilita o
 
 ---
 
+# Agradecimentos a:
+ - Eduardo Rabelo Marques ([Co-Criador](https://github.com/Edu4rdoMarques))
+ - Henrique Sogayar [(Co-Criador)](https://github.com/Sogayar)
+ - Gabriel J0shua ([Inspiração](https://github.com/GabrielJ0shua/SICONFI-API))
+
+---
+
 ## Objetivo do Projeto
 
 Este projeto foi desenvolvido para **automatizar a coleta de dados fiscais públicos** disponibilizados pelo **Tesouro Nacional** por meio do Data Lake do SICONFI.
@@ -200,5 +207,8 @@ Funções auxiliares:
 - Requests
 - ThreadPoolExecutor
 - API pública do Tesouro Nacional (SICONFI)
+
+---
+
 
  <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
