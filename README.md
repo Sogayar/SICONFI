@@ -119,7 +119,7 @@ Responsável por:
 ## Interface da aplicação
 
 <p align="center">
-  <img src="Captura de tela 2025-09-16 094935.png" width="800">
+  <img src="src/Captura de tela 2025-09-16 094935.png" width="800">
 </p>
 
 ---
